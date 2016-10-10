@@ -3,16 +3,17 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mattermost-desktop</id>
-    <version>1.3.0</version>
+    <version>3.4.1</version>
+	<packageSourceUrl>https://github.com/hansnull/chocolatey-mattermost-desktop-package</packageSourceUrl>
     <owners>hans0</owners>
     <title>Mattermost Desktop (Install)</title>
     <authors>https://github.com/mattermost/desktop/graphs/contributors</authors>
     <projectUrl>https://github.com/mattermost/desktop</projectUrl>
     <iconUrl>https://www.mattermost.org/wp-content/uploads/2016/04/icon.png</iconUrl>
-    <licenseUrl>https://github.com/mattermost/desktop/blob/release-1.3/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/mattermost/desktop/tree/release-3.4/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/mattermost/desktop/tree/release-1.3/src</projectSourceUrl>
-    <tags>mattermost-desktop mattermost</tags>
+    <projectSourceUrl>https://github.com/mattermost/desktop/tree/release-3.4/src</projectSourceUrl>
+    <tags>mattermost-desktop admin mattermost</tags>
     <summary>Native desktop application for Mattermost running on Windows.</summary>
     <description># Native desktop application for Mattermost running on Windows.
 
@@ -23,7 +24,8 @@
  - Windows 7-8.1: Balloon (fallback behavior, so lesser support) 
  - Badges for unread channels and mentions
  - Installs as native application
-</description>
+	</description>
+	<releaseNotes>https://github.com/mattermost/desktop/releases</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
