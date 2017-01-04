@@ -3,16 +3,16 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mattermost-desktop</id>
-    <version>3.4.1</version>
+    <version>3.5.0</version>
 	<packageSourceUrl>https://github.com/hansnull/chocolatey-mattermost-desktop-package</packageSourceUrl>
     <owners>hans0</owners>
     <title>Mattermost Desktop (Install)</title>
     <authors>https://github.com/mattermost/desktop/graphs/contributors</authors>
     <projectUrl>https://github.com/mattermost/desktop</projectUrl>
     <iconUrl>https://www.mattermost.org/wp-content/uploads/2016/04/icon.png</iconUrl>
-    <licenseUrl>https://github.com/mattermost/desktop/tree/release-3.4/LICENSE</licenseUrl>
+    <licenseUrl>https://github.com/mattermost/desktop/tree/release-3.5/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
-    <projectSourceUrl>https://github.com/mattermost/desktop/tree/release-3.4/src</projectSourceUrl>
+    <projectSourceUrl>https://github.com/mattermost/desktop/tree/release-3.5/src</projectSourceUrl>
     <tags>mattermost-desktop admin mattermost</tags>
     <summary>Native desktop application for Mattermost running on Windows.</summary>
     <description># Native desktop application for Mattermost running on Windows.

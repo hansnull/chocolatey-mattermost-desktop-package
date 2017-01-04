@@ -4,8 +4,8 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'mattermost-desktop'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://releases.mattermost.com/desktop/3.4.1/mattermost-setup-3.4.1-win32.exe'
-$url64      = 'https://releases.mattermost.com/desktop/3.4.1/mattermost-setup-3.4.1-win64.exe'
+$url        = 'https://releases.mattermost.com/desktop/3.5.0/mattermost-setup-3.5.0-win32.exe'
+$url64      = 'https://releases.mattermost.com/desktop/3.5.0/mattermost-setup-3.5.0-win64.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -18,9 +18,9 @@ $packageArgs = @{
   silentArgs	= '--silent'
 
   softwareName  = 'Mattermost*'
-  checksum      = 'c0d6adc4cb8f262870f824ee40fcacc8'
+  checksum      = 'a24a23b8fb4c33ef88ab04171406dd3f'
   checksumType  = 'md5'
-  checksum64    = 'f1188bf3392a8f8cae879c4dd35f2667'
+  checksum64    = 'ae9577f3e0497f99aa4a8ca20b37b657'
   checksumType64= 'md5'
 }
 
