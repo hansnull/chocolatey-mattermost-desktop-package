@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>mattermost-desktop</id>
-    <version>4.0.1</version>
+    <version>4.1.0</version>
 	<packageSourceUrl>https://github.com/hansnull/chocolatey-mattermost-desktop-package</packageSourceUrl>
     <owners>hans0</owners>
     <title>Mattermost Desktop (Install)</title>
